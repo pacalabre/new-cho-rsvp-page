@@ -106,7 +106,7 @@ fieldset {
 .company-logo {
   display: block;
   margin: 15% auto 2% auto;
-  width: 25%;
+  width: 100px;
 }
 
 footer {
@@ -138,6 +138,9 @@ footer {
     text-align: center;
   }
 
+  .company-logo {
+    margin-top: 120px;
+  }
 }
 
 
@@ -157,10 +160,6 @@ footer {
 
   p, .form-group-label, .label-button ,[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
     font-size: 17px;
-  }
-
-  .company-logo {
-    width: 27%;
   }
 
   .form-section {
@@ -197,11 +196,6 @@ footer {
   input[type=text] {
     width: 60%;
   }*/
-
-  .company-logo {
-    width: 20%;
-    margin: 10% auto 2% auto;
-  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -250,8 +244,5 @@ footer {
   font-size: 45px;
   }
 
-  .company-logo {
-    width: 15%;
-  }
 }
 
