@@ -103,6 +103,10 @@ fieldset {
   background-color: darkgrey;
 }
 
+.about-section {
+  margin-top: 40px;
+}
+
 .company-logo {
   display: block;
   margin: 15% auto 2% auto;
