@@ -105,12 +105,27 @@ fieldset {
 
 .about-section {
   margin-top: 40px;
+  border: solid;
+  padding: 40px;
+}
+
+.about-headline {
+  text-align: center;
+}
+
+.about-img {
+  height: 100px;
+  width: 100px;
+  margin: 20px auto 20px auto;
+  display: block;
+  border-radius: 50%;
 }
 
 .company-logo {
   display: block;
-  margin: 15% auto 2% auto;
+  margin: 2% auto;
   width: 400px;
+  padding-top: 60px;
 }
 
 footer {
