@@ -50,7 +50,7 @@
 input[type = text] {
   border: solid thin black;
   border-radius: 5px;
-  /*width: 80%;*/
+  width: 100%;
   font-size: 2rem;
 }
 
@@ -106,7 +106,7 @@ fieldset {
 .company-logo {
   display: block;
   margin: 15% auto 2% auto;
-  width: 100px;
+  width: 400px;
 }
 
 footer {
@@ -140,6 +140,7 @@ footer {
 
   .company-logo {
     margin-top: 120px;
+    width: 200px;
   }
 }
 
