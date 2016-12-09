@@ -122,6 +122,14 @@ footer {
 
 @media only screen and (min-width: 400px) and (max-width: 599px) {
 
+  .main {
+    margin-top: 0px;
+  }
+
+  .event-description {
+    margin-top: 60px;
+  }
+
   .rsvp-header {
     margin: 7% 0px;
   }
