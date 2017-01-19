@@ -49,7 +49,7 @@
 
 .rsvp-details-wrapper-div {
   background-color: #f39c12;
-  padding: 20px;
+  padding: 20px 10px;
 }
 
 .event-details {
@@ -60,7 +60,6 @@
 
 .event-details-ul {
   padding: 10px;
-  border: solid;
 }
 
 .event-details-category {
@@ -76,10 +75,6 @@
 }
 
 /* RSVP Form */
-
-/*form {
-  text-align: center;
-}*/
 
 input[type = text] {
   border: none;
@@ -98,10 +93,6 @@ fieldset {
   font-family: roboto;
   text-align: left;
   color: white;
-}
-
-.form-section {
-  margin-top: 5%;
 }
 
 .label-button {
@@ -128,8 +119,8 @@ fieldset {
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
   font-size: 18px;
-  color: white;
-  background-color: grey;
+  color: #f39c12;
+  background-color: white;
 }
 
 .submit-btn:hover {
