@@ -1,4 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto';
+@import url('https://fonts.googleapis.com/css?family=Poppins|Open+Sans');
+
+svg {
+  fill: currentColor;
+}
 
 .row {
   margin-left: 0px;
@@ -23,7 +28,7 @@
   margin: 10% 0px;
   text-align: center;
   font-size: 35px;
-  font-family: roboto;
+  font-family: 'poppins', arial;
   color: white;
 }
 
@@ -41,7 +46,7 @@
 .header-text {
   color: white;
   font-size: 40px;
-  font-family: roboto;
+  font-family: 'poppins', arial;
   text-align: center;
 }
 
@@ -51,12 +56,12 @@
 }
 
 .rsvp-details-wrapper {
-  background-color: #ffc15f;
+  background-color: #E8B518;
   padding: 0px;
 }
 
 .rsvp-details-wrapper-div {
-  background-color: #f39c12;
+  background-color: #f3c125;
   padding: 20px 10px;
 }
 
@@ -103,7 +108,7 @@ fieldset {
 .form-group-label {
   font-size: 15px;
   color: black;
-  font-family: roboto;
+  font-family: arial;
   text-align: left;
   color: white;
 }
@@ -170,7 +175,7 @@ fieldset {
 footer {
   text-align: center;
   font-size: 12px;
-  font-family: roboto;
+  font-family: 'poppins', arial;
   margin-bottom: 3%;
 }
 
