@@ -11,9 +11,9 @@
   padding-right: 0px;
 }
 
-.event-details {
+/*.event-details {
   margin-top: 25px;
-}
+}*/
 
 .event-details-category {
   font-weight: bold;
@@ -61,13 +61,15 @@
 }
 
 .event-details {
-  margin-top: 55px;
+  margin-top: 20px;
   font-size: 14px;
 
 }
 
 .event-details-ul {
-  padding: 10px;
+  /*padding: 10px;*/
+  color: white;
+  font-size: 16px;
 }
 
 .event-details-category {
@@ -75,9 +77,15 @@
 }
 
 .event-description {
-  margin-top: 35px;
+  margin-top: 15px;
   font-size: 16px;
 }
+
+.svg-icon {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
 
 /* RSVP Form */
 
@@ -129,8 +137,8 @@ fieldset {
 }
 
 .submit-btn:hover {
-  color: black;
-  background-color: darkgrey;
+  color: white;
+  background-color: #1a1a1a;
 }
 
 .about-section {
@@ -141,6 +149,7 @@ fieldset {
 
 .about-headline {
   text-align: center;
+  margin-top: 0px;
 }
 
 .about-img {
