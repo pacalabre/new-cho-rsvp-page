@@ -33,6 +33,10 @@
   margin-top: 0px;
 }
 
+.event-details-category {
+  font-weight: bold;
+}
+
 .main {
   margin-top: 40px;
 }
