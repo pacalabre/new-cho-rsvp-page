@@ -73,6 +73,15 @@ svg {
   font-size: 12px;
 }
 
+.event-details-h5 {
+  padding-left: 40px;
+  margin-top: -33px;
+}
+
+.event-details-address {
+  padding-left: 40px;
+}
+
 .event-details-category {
   /*font-weight: bold;*/
   font-family: 'poppins', arial;
@@ -92,6 +101,11 @@ svg {
 .svg-icon {
   width: 30px;
   margin-bottom: 15px;
+}
+
+.svg-icon-location {
+  width:28px;
+  padding-left: 4px;
 }
 
 
