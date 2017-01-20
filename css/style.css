@@ -65,7 +65,7 @@ svg {
   background-color: #e8aa00;
   /*margin-top: 20px;*/
   font-size: 14px;
-  padding: 20px 10px;
+  padding: 37px 10px;
 }
 
 .event-details-ul {
@@ -112,6 +112,10 @@ fieldset {
   font-weight:300;
 }
 
+.form-group-label-radio {
+  margin-top: 5px;
+}
+
 .label-button {
   color: black;
 }
@@ -122,6 +126,7 @@ fieldset {
 
 .form-group {
   padding: 0px 5%;
+  margin-bottom: 0px;
 }
 
 .submit-btn {
@@ -234,6 +239,20 @@ footer {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .event-details {
+    padding: 15px 10px;
+  }
+
+  .rsvp-header {
+    margin: 0% 0px;
+  }
+
+  .submit-btn {
+    font-size: 1.7rem;
+  }
+}
+
 @media only screen and (min-width: 801px) {
 
   nav ul a, .submit-btn, .header-rsvp-btn {
@@ -245,7 +264,7 @@ footer {
   }
 
   .rsvp-header {
-    margin: 4% 0px;
+    margin: 0% 0px;
   }
 
   .event-detail-label{
@@ -278,6 +297,11 @@ footer {
   .header-rsvp-btn {
     display: none;
   }
+
+  .event-details {
+    padding: 9px 10px;
+  }
+
 }
 
 
@@ -311,5 +335,11 @@ footer {
   font-size: 45px;
   }
 
+}
+@media only screen and (min-width: 1200px) {
+
+  .event-details {
+    padding: 36px 10px;
+  }
 }
 
