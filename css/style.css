@@ -70,7 +70,7 @@ svg {
 .event-details-ul {
   /*padding: 10px;*/
   color: white;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .event-details-category {
@@ -225,6 +225,10 @@ footer {
     margin: 5% 0px;
   }
 
+  .event-details-ul {
+    font-size: 16px;
+  }
+
   .section-h2 {
   font-size: 35px;
   }
@@ -239,6 +243,10 @@ footer {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .event-details-ul {
+    font-size: 16px;
+  }
+
   .event-details {
     background-color: #e8aa00;
     padding: 15px 10px;
@@ -274,6 +282,10 @@ footer {
 
   .event-details {
     background-color: #e8aa00;
+  }
+
+  .event-details-ul {
+    font-size: 16px;
   }
 
   .event-detail-label{
