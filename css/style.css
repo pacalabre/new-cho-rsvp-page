@@ -57,12 +57,11 @@ svg {
 }
 
 .rsvp-details-wrapper-div {
-
   padding: 10px 10px 15px 0px;
 }
 
 .event-details {
-  background-color: #e8aa00;
+  background-color: #1e1e1e;
   /*margin-top: 20px;*/
   font-size: 14px;
   padding: 37px 10px;
@@ -121,7 +120,7 @@ fieldset {
 }
 
 .submit-wrapper {
-  padding: 0px 5%;
+  padding: 20px 5%;
 }
 
 .form-group {
@@ -241,6 +240,7 @@ footer {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .event-details {
+    background-color: #e8aa00;
     padding: 15px 10px;
   }
 
@@ -248,9 +248,14 @@ footer {
     margin: 0% 0px;
   }
 
+  .submit-wrapper {
+    padding: 0px 5%;
+  }
+
   .submit-btn {
     font-size: 1.7rem;
   }
+
 }
 
 @media only screen and (min-width: 801px) {
@@ -265,6 +270,10 @@ footer {
 
   .rsvp-header {
     margin: 0% 0px;
+  }
+
+  .event-details {
+    background-color: #e8aa00;
   }
 
   .event-detail-label{
@@ -299,7 +308,7 @@ footer {
   }
 
   .event-details {
-    padding: 9px 10px;
+    padding: 30px 10px;
   }
 
 }
@@ -339,7 +348,7 @@ footer {
 @media only screen and (min-width: 1200px) {
 
   .event-details {
-    padding: 36px 10px;
+    padding: 41px 10px;
   }
 }
 
